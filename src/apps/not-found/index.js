@@ -7,8 +7,7 @@ class NotFound extends Component {
     render(){
         console.log('style  >>>>>>>>>>>',style)
         return <div className="container">
-                  <p className={ style["not-found"] }>404</p>
-                  {style}
+                  <p className={ "not-found" }>404</p>
                </div>
     }
 }
